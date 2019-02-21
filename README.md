@@ -5,3 +5,4 @@ This is a list of all the projects I've done:
 3. Self Portrait  
 4. Holiday Card!
 5. Travel Website!
+6. Recipe Book
