@@ -6,3 +6,4 @@ This is a list of all the projects I've done:
 4. Holiday Card!
 5. Travel Website!
 6. Recipe Book
+7. Event Invite
