@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Confetti_%285879576562%29.jpg/1200px-Confetti_%285879576562%29.jpg);
+            }
+            .invite{
+                background-color:rgb(199, 233, 255);
+                margin:25px;
+                border: solid;
+                z-index:1;
+                position:relative;
+                top:100px;
+            }
+            #invite-banner{
+                position: fixed;
+                text-align: center;
+                font-family:cursive;
+                left:-12px;
+                top:0;
+                width:95%;
+                height:118px;
+                background-color:rgb(199, 233, 255);
+                margin-left:25px;
+                margin-right:25px;
+                margin:25px;
+                margin-top:-11px;
+                z-index:2;
+                opacity:0.9;
+                
+            }
+            #party-heading1{
+                text-align:center;
+                font-family: cursive;
+            }
+            .detail-list{
+                position:relative;
+                text-align:center;
+                text-decoration: underline;
+                font-weight:bold;
+            }
+            .info{
+                font-weight: bold;
+                font-family: cursive;
+                margin-left:20px;
+            }
+            .button{
+                position:relative;
+                left: 140px;
+                margin-bottom:50px;
+                margin-top:50px;
+                width:200px;
+                height:100px;
+                color:white;
+                background-color:rgb(125, 175, 189);
+                border: solid;
+                border-width:4px;
+                
+            }
+            .guest-list{
+                position:absolute;
+                margin-left:20px;
+            }
+        #endnote{
+            float:right;
+            width:16%;
+            margin-right:7px;
+            position:relative;
+            top:49px;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <div id="invite-banner"><h1>You're invited!</h1></div>
+        <div class="invite"><h4 id="party-heading1">You're Invited to Gal Riger's Birthday Party!</h4>
+        
+        <p class="detail-list">The details:</p>
+        <ul>
+            <li> <span class="info">Who:</span> Gal's Party</li>
+            <li><span class="info">Where:</span> 123 Party Av.</li>
+            <li><span class="info">When:</span> 5:00pm - 9:00pm</li>
+            <li><span class="info">Contact</span>: 613 - 613 - 6136</li>
+        </ul>
+        
+        <p class="detail-list">
+            Guest List:
+        </p>
+        <ul class="guest-list">
+            <li>Tom</li>
+            <li>James</li>
+            <li>Michael</li>
+            <li>David</li>
+            <li>Stewart</li>
+            <li>Bob</li>
+            <li>Brad</li>
+        </ul>
+        
+        <button class="button" type="button" onclick="alert('Congratulations! You have RSVPed to Gal Rigers Party!')">RSVP</button>
+        
+        <p id="endnote">
+            Hope to see you at my party!!!!
+        </p>
+        </div>
+        
+    </body>
+</html>
