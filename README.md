@@ -13,3 +13,7 @@ This is a list of all the projects I've done:
 12. Animal Attack
 13. Add design 
 14. Fish tank
+15. Magic 8 ball
+16. Build a house
+17. Make it rain
+18. Bookshelf
